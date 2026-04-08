@@ -1,7 +1,3 @@
-"""
-Telegram бот — парсер комментаторов каналов
-Запуск: python tg_bot.py
-"""
 
 import asyncio
 import os
@@ -30,8 +26,8 @@ from telethon.errors import (
 BOT_TOKEN = "8542734719:AAEEyZVGcHTBj1va5v2cY5QIKsXIJEp11rM"
 
 # Публичные данные TDesktop (если нет своих)
-API_ID = 2040
-API_HASH = "b18441a1ff607e10a989891a5462e627"
+API_ID = 4
+API_HASH = "014b35b6184100b085b0d0572f9b5103"
 
 # Лимит постов (0 = все)
 POSTS_LIMIT = 200
